@@ -1,0 +1,22 @@
+# Android / Gradle
+.gradle/
+build/
+/local.properties
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+
+# 키 (local.properties나 secrets.properties에 두고 올리지 않아요)
+secrets.properties
+google-services.json
+
+# OS
+.DS_Store
